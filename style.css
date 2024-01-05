@@ -8,12 +8,12 @@
     background-color: #0f1111;
     color: white;  
 }
-.nav-logo{
+.navlogo{
     height:50px ;
     width: 100px;
 }
 .logo{
-    background-image: url("amazon_logo.png");
+    background-image: url("amazonlogo.png");
     height: 50px;
     width: 100%;
     background-size: cover;
