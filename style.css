@@ -1,20 +1,144 @@
-*{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    border:border-box; 
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
 }
-.navbar{
-    height: 60px;
-    background-color: #0f1111;
-    color: white;  
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.navlogo{
-    height:50px ;
-    width: 100px;
+/* logo box */
+.nav-logo {
+  height: 50px;
+  width: 100px;
 }
-.logo{
-    background-image: url("amazonlogo.png");
-    height: 50px;
-    width: 100%;
-    background-size: cover;
+.logo {
+  background-image: url("amazonlogo.png");
+  height: 50px;
+  width: 100%;
+  background-size: cover;
+}
+
+.broder {
+  border: 1.5px solid transparent;
+}
+
+.broder:hover {
+  border: 1.5px solid white;
+}
+/* address box */
+
+.add-1-line {
+  color: #cccccc;
+  font-size: 0.8rem;
+  margin-left: 15px;
+}
+
+.add-2-line {
+  color: white;
+  font-size: 1rem;
+  margin-left: 3px;
+}
+
+.address-icon {
+  display: flex;
+  align-items: center;
+}
+/* Search box */
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 620px;
+  height: 40px;
+  background: white;
+  border-radius: 4px;
+  border: 2px solid transparent;
+}
+
+.nav-search:hover {
+  border: 2px solid orange;
+}
+.select {
+  background-color: #f3f3f3;
+  width: 50px;
+  height: 100%;
+  border-radius: 4px 0px 0px 4px;
+  text-align: center;
+  border: none;
+}
+
+.search {
+  width: 100%;
+  font-size: 1rem;
+  height: 100%;
+  border: none;
+}
+
+.icon {
+  width: 45px;
+  height: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #febd68;
+  color: #0f1111;
+}
+/* England flag box */
+
+.flug {
+  width: 24px;
+  height: 18px;
+  overflow: hidden;
+}
+
+.flug-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.country {
+  display: flex;
+}
+.country-name {
+  background-color: #0f1111;
+  color: white;
+  border: none;
+}
+/* Account and sign in box */
+.lists {
+  background-color: #0f1111;
+  color: white;
+  border: none;
+}
+
+.sign {
+  font-size: 0.7rem;
+  padding-left: 4px;
+}
+
+.nav-second {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.returns {
+  font-size: 0.7rem;
+}
+/* cart box */
+.nav-cart i {
+  font-size: 30px;
+}
+
+.nav-cart {
+  font-size: 0.85rem;
+  font-weight: 700;
 }
